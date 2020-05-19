@@ -1,0 +1,238 @@
+{
+    "ID" : "Story_7_GunboatDiplomacy_Default",
+    "contractName" : "Extraction",
+    "contractDisplayStyle" : "BaseCampaignStory",
+    "difficulty" : 6,
+    "difficultyUIModifier" : 1,
+    "weight" : 1,
+    "scope" : "STANDARD",
+    "finalDifficulty" : 0,
+    "shortDescription" : "The Directorate has captured Lord Madeira, and we're going to get him back. We have his transponder coordinates, and we know that he's on the move. We're going to make planetfall, rescue Alexander, and recover the evidence he risked his life to bring us. And we will bring ruin to anyone who stands in our way.",
+    "longDescription" : "Lady Arano's said it all, {COMMANDER.FirstName}. We don't leave our people behind, and Lord Madeira's an important asset to the Restoration. He's on our crew. Let's go get him.",
+    "salvagePotential" : 24,
+    "overrideAutoCompleteDialogueId" : "1c0cc7ed-7e9a-4e37-be6b-e82cf444f5d8",
+    "disableNegotations" : true,
+    "disableLanceConfiguration" : false,
+    "disableCancelButton" : false,
+    "disableAfterAction" : false,
+    "contractRewardOverride" : 4966000,
+    "travelOnly" : false,
+    "useTravelCostPenalty" : false,
+    "usesExpiration" : false,
+    "expirationTimeOverride" : -1,
+    "negotiatedSalary" : 0.5,
+    "negotiatedSalvage" : 0.5,
+    "player1Team" : {
+        "encounterLayerData" : {
+            "EncounterObjectGuid" : "e9ef5048-8e77-4e43-9678-ebb66d788919"
+        },
+        "teamGuid" : "bf40fd39-ccf9-47c4-94a6-061809681140",
+        "teamName" : "Player 1",
+        "faction" : "Player1sMercUnit",
+        "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
+        "lanceOverrideList" : [
+            {
+                "lanceSpawner" : {
+                    "EncounterObjectGuid" : "76b654a6-4f2c-4a6f-86e6-d4cf868335fe"
+                },
+                "name" : "PlayerLanceSpawner",
+                "lanceDefId" : "Manual",
+                "lanceTagSet" : {
+                    "items" : [
+                        
+                    ],
+                    "tagSetSourceFile" : ""
+                },
+                "lanceExcludedTagSet" : {
+                    "items" : [
+                        
+                    ],
+                    "tagSetSourceFile" : "Tags/LanceTags"
+                },
+                "spawnEffectTags" : {
+                    "items" : [
+                        
+                    ],
+                    "tagSetSourceFile" : "tags/SpawnEffectTags"
+                },
+                "lanceDifficultyAdjustment" : 0,
+                "selectedLanceDefId" : null,
+                "selectedLanceDifficulty" : 0,
+                "unitSpawnPointOverrideList" : [
+                    {
+                        "unitSpawnPoint" : {
+                            "EncounterObjectGuid" : "ec9d2280-ca9a-4d90-8a20-963d8a4c0a39"
+                        },
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "heraldrydef_restoration",
+                        "unitType" : "Mech",
+                        "unitDefId" : "mechdef_atlas_royal_AS7-D-HT",
+                        "unitTagSet" : {
+                            "items" : [
+                                
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "unitExcludedTagSet" : {
+                            "items" : [
+                                
+                            ],
+                            "tagSetSourceFile" : "Tags/UnitTags"
+                        },
+                        "spawnEffectTags" : {
+                            "items" : [
+                                
+                            ],
+                            "tagSetSourceFile" : "Tags/SpawnEffectTags"
+                        },
+                        "pilotDefId" : "pilot_story_kamea_mid",
+                        "pilotTagSet" : {
+                            "items" : [
+                                
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "pilotExcludedTagSet" : {
+                            "items" : [
+                                
+                            ],
+                            "tagSetSourceFile" : "Tags/PilotTags"
+                        },
+                        "selectedUnitType" : "UNDEFINED",
+                        "selectedUnitDefId" : null,
+                        "selectedPilotDefId" : null
+                    },
+                    {
+                        "unitSpawnPoint" : {
+                            "EncounterObjectGuid" : "ebc06b6a-c5a8-4165-95ce-480bcf335570"
+                        },
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
+                        "unitType" : "UNDEFINED",
+                        "unitDefId" : "",
+                        "unitTagSet" : {
+                            "items" : [
+                                
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "unitExcludedTagSet" : {
+                            "items" : [
+                                
+                            ],
+                            "tagSetSourceFile" : "Tags/UnitTags"
+                        },
+                        "spawnEffectTags" : {
+                            "items" : [
+                                
+                            ],
+                            "tagSetSourceFile" : "tags/SpawnEffectTags"
+                        },
+                        "pilotDefId" : "pilot_default",
+                        "pilotTagSet" : {
+                            "items" : [
+                                
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "pilotExcludedTagSet" : {
+                            "items" : [
+                                
+                            ],
+                            "tagSetSourceFile" : "Tags/PilotTags"
+                        },
+                        "selectedUnitType" : "UNDEFINED",
+                        "selectedUnitDefId" : null,
+                        "selectedPilotDefId" : null
+                    },
+                    {
+                        "unitSpawnPoint" : {
+                            "EncounterObjectGuid" : "d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1"
+                        },
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
+                        "unitType" : "UNDEFINED",
+                        "unitDefId" : "",
+                        "unitTagSet" : {
+                            "items" : [
+                                
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "unitExcludedTagSet" : {
+                            "items" : [
+                                
+                            ],
+                            "tagSetSourceFile" : "Tags/UnitTags"
+                        },
+                        "spawnEffectTags" : {
+                            "items" : [
+                                
+                            ],
+                            "tagSetSourceFile" : "tags/SpawnEffectTags"
+                        },
+                        "pilotDefId" : "pilot_default",
+                        "pilotTagSet" : {
+                            "items" : [
+                                
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "pilotExcludedTagSet" : {
+                            "items" : [
+                                
+                            ],
+                            "tagSetSourceFile" : "Tags/PilotTags"
+                        },
+                        "selectedUnitType" : "UNDEFINED",
+                        "selectedUnitDefId" : null,
+                        "selectedPilotDefId" : null
+                    },
+                    {
+                        "unitSpawnPoint" : {
+                            "EncounterObjectGuid" : "461141c2-f956-49a5-b2c6-6f951b957a94"
+                        },
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
+                        "unitType" : "UNDEFINED",
+                        "unitDefId" : "",
+                        "unitTagSet" : {
+                            "items" : [
+                                
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "unitExcludedTagSet" : {
+                            "items" : [
+                                
+                            ],
+                            "tagSetSourceFile" : "Tags/UnitTags"
+                        },
+                        "spawnEffectTags" : {
+                            "items" : [
+                                
+                            ],
+                            "tagSetSourceFile" : "Tags/SpawnEffectTags"
+                        },
+                        "pilotDefId" : "pilot_default",
+                        "pilotTagSet" : {
+                            "items" : [
+                                
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "pilotExcludedTagSet" : {
+                            "items" : [
+                                
+                            ],
+                            "tagSetSourceFile" : "Tags/PilotTags"
+                        },
+                        "selectedUnitType" : "UNDEFINED",
+                        "selectedUnitDefId" : null,
+                        "selectedPilotDefId" : null
+                    }
+                ]
+            }
+        ]
+    }
+}

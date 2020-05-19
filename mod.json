@@ -1,0 +1,18 @@
+{
+    "Name": "SLDFItemsInShops2CampaignMechs",
+    "Enabled": true,
+    
+    "DependsOn": [ "JK_VariantsCampaign", "HeatAndWeight", "SLDFItemsInShops", "StreakMissileLaunchers" ],
+    
+    "Version": "0.1.0",
+    "Description": "Using my new items to create a variant of campaign mechs (Kamea and SLDF outpost)",
+    "Author": "tharbad08",
+    "Website": "https://github.com/shaygover/BTshopsupgrade",
+    "Contact": "Use github Issues",
+
+    "Manifest": [
+        { "Type": "MechDef", "Path": "mech" },
+        { "Type": "ContractOverride", "Path": "story_7_gunboatdiplomacy", "ShouldMergeJSON": true, "AddToDB": false },
+        { "Type": "ContractOverride", "Path": "story_9_downfall", "ShouldMergeJSON": true, "AddToDB": false }
+    ]
+} 

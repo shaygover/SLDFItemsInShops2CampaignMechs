@@ -1,0 +1,229 @@
+{
+    "ID" : "Story_6B_TreasureTrove_Default",
+    "contractName" : "ESCAPE",
+    "contractDisplayStyle" : "BaseCampaignStory",
+    "difficulty" : 6,
+    "difficultyUIModifier" : 0,
+    "weight" : 1,
+    "scope" : "STANDARD",
+    "finalDifficulty" : 0,
+    "shortDescription" : "The elevator just rumbled to a halt. I don't know how much firepower Ostergaard is going to throw our way once we're clear of the doors, but I'm counting on you to lead us through this, {COMMANDER.Callsign}. Now let's see what these Star League-era 'Mechs can do.",
+    "longDescription" : "Get Yang and Lady Arano to the <i>Delfinas</i>, {COMMANDER.FirstName}. That's the only thing that matters.",
+    "salvagePotential" : 30,
+    "requirementList" : [
+
+    ],
+    "player1Team" : {
+        "encounterLayerData" : {
+            "EncounterObjectGuid" : "fb6cc9f2-fe4c-4e2b-b492-9fae77a21776"
+        },
+        "teamGuid" : "bf40fd39-ccf9-47c4-94a6-061809681140",
+        "teamName" : "Player 1",
+        "faction" : "AuriganRestoration",
+        "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
+        "lanceOverrideList" : [
+            {
+                "lanceSpawner" : {
+                    "EncounterObjectGuid" : "577981ac-40a8-4a8e-9c27-16e5a96d0c7a"
+                },
+                "name" : "PlayerLanceSpawner",
+                "lanceDefId" : "Manual",
+                "lanceTagSet" : {
+                    "items" : [
+
+                    ],
+                    "tagSetSourceFile" : ""
+                },
+                "lanceExcludedTagSet" : {
+                    "items" : [
+
+                    ],
+                    "tagSetSourceFile" : "Tags/LanceTags"
+                },
+                "spawnEffectTags" : {
+                    "items" : [
+
+                    ],
+                    "tagSetSourceFile" : "Tags/SpawnEffectTags"
+                },
+                "lanceDifficultyAdjustment" : 0,
+                "selectedLanceDefId" : "",
+                "selectedLanceDifficulty" : 0,
+                "unitSpawnPointOverrideList" : [
+                    {
+                        "unitSpawnPoint" : {
+                            "EncounterObjectGuid" : "d918e4f1-2ea4-4b7f-9df8-539e363fb5f5"
+                        },
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "heraldrydef_sldf",
+                        "unitType" : "Mech",
+                        "unitDefId" : "mechdef_atlas_AS7-D-HT",
+                        "unitTagSet" : {
+                            "items" : [
+
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "unitExcludedTagSet" : {
+                            "items" : [
+
+                            ],
+                            "tagSetSourceFile" : "Tags/UnitTags"
+                        },
+                        "spawnEffectTags" : {
+                            "items" : [
+
+                            ],
+                            "tagSetSourceFile" : "Tags/SpawnEffectTags"
+                        },
+                        "pilotDefId" : "pilot_story_kamea_mid",
+                        "pilotTagSet" : {
+                            "items" : [
+
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "pilotExcludedTagSet" : {
+                            "items" : [
+
+                            ],
+                            "tagSetSourceFile" : "Tags/PilotTags"
+                        },
+                        "selectedUnitType" : "UNDEFINED",
+                        "selectedUnitDefId" : "",
+                        "selectedPilotDefId" : ""
+                    },
+                    {
+                        "unitSpawnPoint" : {
+                            "EncounterObjectGuid" : "e807e303-3847-4874-a8fb-530a04d7dac2"
+                        },
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "heraldrydef_sldf",
+                        "unitType" : "Mech",
+                        "unitDefId" : "mechdef_highlander_HGN-732b",
+                        "unitTagSet" : {
+                            "items" : [
+
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "unitExcludedTagSet" : {
+                            "items" : [
+
+                            ],
+                            "tagSetSourceFile" : "Tags/UnitTags"
+                        },
+                        "spawnEffectTags" : {
+                            "items" : [
+
+                            ],
+                            "tagSetSourceFile" : "Tags/SpawnEffectTags"
+                        },
+                        "pilotDefId" : "pilot_story_KameaGuard1",
+                        "pilotTagSet" : {
+                            "items" : [
+
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "pilotExcludedTagSet" : {
+                            "items" : [
+
+                            ],
+                            "tagSetSourceFile" : "Tags/PilotTags"
+                        },
+                        "selectedUnitType" : "UNDEFINED",
+                        "selectedUnitDefId" : "",
+                        "selectedPilotDefId" : ""
+                    },
+                    {
+                        "unitSpawnPoint" : {
+                            "EncounterObjectGuid" : "c5b73d87-e7a2-4f6a-8f78-feb68c977826"
+                        },
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "heraldrydef_sldf",
+                        "unitType" : "Mech",
+                        "unitDefId" : "mechdef_blackknight_BL-6b-KNT",
+                        "unitTagSet" : {
+                            "items" : [
+
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "unitExcludedTagSet" : {
+                            "items" : [
+
+                            ],
+                            "tagSetSourceFile" : "Tags/UnitTags"
+                        },
+                        "spawnEffectTags" : {
+                            "items" : [
+
+                            ],
+                            "tagSetSourceFile" : "Tags/SpawnEffectTags"
+                        },
+                        "pilotDefId" : "pilot_story_KameaGuard2",
+                        "pilotTagSet" : {
+                            "items" : [
+
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "pilotExcludedTagSet" : {
+                            "items" : [
+
+                            ],
+                            "tagSetSourceFile" : "Tags/PilotTags"
+                        },
+                        "selectedUnitType" : "UNDEFINED",
+                        "selectedUnitDefId" : "",
+                        "selectedPilotDefId" : ""
+                    },
+                    {
+                        "unitSpawnPoint" : {
+                            "EncounterObjectGuid" : "09a52921-7de0-46c6-b2f8-7f992f819371"
+                        },
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "heraldrydef_sldf",
+                        "unitType" : "Mech",
+                        "unitDefId" : "mechdef_griffin_GRF-4N",
+                        "unitTagSet" : {
+                            "items" : [
+
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "unitExcludedTagSet" : {
+                            "items" : [
+
+                            ],
+                            "tagSetSourceFile" : "Tags/UnitTags"
+                        },
+                        "spawnEffectTags" : {
+                            "items" : [
+
+                            ],
+                            "tagSetSourceFile" : "Tags/SpawnEffectTags"
+                        },
+                        "pilotDefId" : "pilot_story_KameaGuard3",
+                        "pilotTagSet" : {
+                            "items" : [
+
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "pilotExcludedTagSet" : {
+                            "items" : [
+
+                            ],
+                            "tagSetSourceFile" : "Tags/PilotTags"
+                        },
+                        "selectedUnitType" : "UNDEFINED",
+                        "selectedUnitDefId" : "",
+                        "selectedPilotDefId" : ""
+                    }
+                ]
+            }
+        ]
+    }
+}
