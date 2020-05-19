@@ -192,21 +192,10 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_LRM_LRM20_2-Telos",
+            "ComponentDefID": "Weapon_Streak_SRM_SRM6_1-Holly",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_SRM_SRM6_2-Holly",
-            "SimGameUID": "",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
