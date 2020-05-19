@@ -57,7 +57,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "heraldrydef_sldf",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_atlas_AS7-D-HT",
+                        "unitDefId" : "mechdef_atlas_royal_AS7-D-HT",
                         "unitTagSet" : {
                             "items" : [
 
@@ -100,7 +100,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "heraldrydef_sldf",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_highlander_HGN-732b",
+                        "unitDefId" : "mechdef_highlander_royal_HGN-732b",
                         "unitTagSet" : {
                             "items" : [
 
@@ -143,7 +143,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "heraldrydef_sldf",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_blackknight_BL-6b-KNT",
+                        "unitDefId" : "mechdef_blackknight_royal_BL-6-KNT",
                         "unitTagSet" : {
                             "items" : [
 
@@ -186,7 +186,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "heraldrydef_sldf",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_griffin_GRF-4N",
+                        "unitDefId" : "mechdef_griffin_royal_GRF-4N",
                         "unitTagSet" : {
                             "items" : [
 
