@@ -1,4 +1,4 @@
-- Edit the contracts: treasuretrove for SLDF outpost and liberationofweldry for the prison.
 - Edit the griffin, the blacknight and the highlander according to the mechs I created in the mechbay for 6b.
-- Copy and edit the kintaro for 6a and 4.
+- Edit the Atlas II royal royal plus.
 - Atlas II royal  has unused tonnage - Check it in the bay? Checked and no idea.
+- Got to the LeftTorso of the royal atlas

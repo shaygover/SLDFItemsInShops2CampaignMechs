@@ -36,6 +36,17 @@
     "Version": 1,
     "Locations": [
         {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Ceres_Metals_Braced",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
             "DamageLevel": "Functional",
             "Location": "Head",
             "CurrentArmor": 45,
