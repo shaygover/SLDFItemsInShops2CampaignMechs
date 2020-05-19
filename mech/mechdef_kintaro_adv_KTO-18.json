@@ -23,11 +23,11 @@
     "Description": {
         "Cost": 6270000,
         "Rarity": 3,
-        "Purchasable": true,
+        "Purchasable": false,
         "Manufacturer": null,
         "Model": null,
         "UIName": "Kintaro KTO-18",
-        "Id": "mechdef_kintaro_KTO-18",
+        "Id": "mechdef_kintaro_adv_KTO-18",
         "Name": "Kintaro",
         "Details": "The Kintaro 18 is\u2026 a beast of a machine. It's fast for its size, mounts heavy armor, and can literally shred most other 'Mechs with its almost ridiculous amount of close-range weaponry. But, it runs hotter than Hell's saunas.",
         "Icon": "uixTxrIcon_kintaro"
