@@ -115,17 +115,6 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_3-SCI",
-            "SimGameUID": "",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_HeatSink_Generic_Double",
             "SimGameUID": "",
             "ComponentDefType": "HeatSink",
@@ -148,7 +137,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_3-SCI",
+            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_2-Magna200P",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -170,7 +159,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_3-SCI",
+            "ComponentDefID": "Weapon_Laser_LargeLaserER_2-BlazeFire",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -181,7 +170,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_3-SCI",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_2-Magna400P",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
@@ -203,7 +192,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_LRM_LRM20_3-Zeus",
+            "ComponentDefID": "Weapon_Streak_SRM_SRM6_3-Valiant",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -214,7 +203,29 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Streak_SRM_SRM6_3-Valiant",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRMStreak",
+            "SimGameUID": "",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRMStreak",
+            "SimGameUID": "",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Inferno_Inferno2_2-Marklin_Mini",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
@@ -225,7 +236,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
             "SimGameUID": "",
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
@@ -236,31 +247,9 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefID": "Gear_TargetingTrackingSystem_SLDF_2",
             "SimGameUID": "",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRMStreak",
-            "SimGameUID": "",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRMStreak",
-            "SimGameUID": "",
-            "ComponentDefType": "AmmunitionBox",
+            "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
@@ -269,7 +258,7 @@
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_3-SCI",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_2-Magna400P",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -280,7 +269,7 @@
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_3-SCI",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_2-Magna400P",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
@@ -324,6 +313,17 @@
         },
         {
             "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Autocannon_LB5X_2-GM",
+            "SimGameUID": "",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Gauss_Gauss_2-M9",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
@@ -346,7 +346,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB5X",
             "SimGameUID": "",
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
@@ -356,15 +356,15 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation" : "RightTorso",
-            "ComponentDefID" : "Gear_TargetingTrackingSystem_SLDF_2",
-            "SimGameUID" : "",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB5X",
+            "SimGameUID": "",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
         },
         {
             "MountedLocation": "RightArm",
@@ -390,7 +390,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_3-SCI",
+            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_2-Magna200P",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -412,7 +412,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_3-SCI",
+            "ComponentDefID": "Weapon_Laser_LargeLaserER_2-BlazeFire",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -456,7 +456,7 @@
         },
         {
             "MountedLocation": "LeftLeg",
-            "ComponentDefID": "SLDF_Rgrav_heavy",
+            "ComponentDefID": "SLDF_Rgrav_medium",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
