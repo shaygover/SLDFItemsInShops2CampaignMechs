@@ -1,3 +1,2 @@
-- Edit the griffin, the blacknight and the highlander according to the mechs I created in the mechbay for 6b.
-- Atlas II royal  has unused tonnage - Check it in the bay? Checked and no idea.
-- Got to the Center Torso of the blackknight
+- Edit the griffin and the highlander according to the mechs I created in the mechbay for 6b.
+- Got to the Left Torso of the highlander
