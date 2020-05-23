@@ -36,17 +36,6 @@
     "Version": 1,
     "Locations": [
         {
-            "MountedLocation": "Head",
-            "ComponentDefID": "Gear_Cockpit_Ceres_Metals_Braced",
-            "SimGameUID": "",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
             "DamageLevel": "Functional",
             "Location": "Head",
             "CurrentArmor": 45,
@@ -79,7 +68,7 @@
             "CurrentArmor": 180,
             "CurrentRearArmor": 90,
             "CurrentInternalStructure": 90,
-            "AssignedArmor": 179,
+            "AssignedArmor": 180,
             "AssignedRearArmor": 90
         },
         {
@@ -120,6 +109,17 @@
         }
     ],
     "inventory": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Ceres_Metals_Braced",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_LRM_LRM5_1-Telos",

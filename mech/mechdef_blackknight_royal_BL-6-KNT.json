@@ -68,7 +68,7 @@
     "Purchasable": false,
     "Manufacturer": null,
     "Model": null,
-    "UIName": "Outpost Black Knight BL-6-KNT",
+    "UIName": "Outpost Black Knight BL-6r-KNT",
     "Id": "mechdef_blackknight_royal_BL-6-KNT",
     "Name": "Outpost Black Knight",
     "Details": "The Black Knight 6b was the harder-hitting, cooler-running Star League ancestor to the standard BL-6-KNT we have today. It did everything the 7 does, but better—mostly thanks to its Double Heat Sinks, which are basically nonexistent these days and its lighter EndoSteel internal structure.  This 'Royal' variant also benefitted from the latest in SLDF tech with a built in Beagle Active Probe.",
@@ -153,7 +153,7 @@
   "inventory": [
     {
       "MountedLocation": "Head",
-      "ComponentDefID": "Gear_General_Lance_Command_Module",
+      "ComponentDefID": "Gear_General_Company_Command_Module",
       "SimGameUID": "",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
