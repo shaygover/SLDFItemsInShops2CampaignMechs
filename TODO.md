@@ -1,2 +1,1 @@
-- Edit the griffin and the highlander according to the mechs I created in the mechbay for 6b.
-- Got to the Left Torso of the highlander
+- Edit the griffin according to the mechs I created in the mechbay for 6b.
