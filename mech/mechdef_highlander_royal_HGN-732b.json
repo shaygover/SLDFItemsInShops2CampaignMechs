@@ -5,9 +5,9 @@
         "Purchasable" : false,
         "Manufacturer" : null,
         "Model" : null,
-        "UIName" : "Highlander HGN-732b",
+        "UIName" : "Outpost Highlander HGN-732b",
         "Id" : "mechdef_highlander_royal_HGN-732b",
-        "Name" : "Highlander",
+        "Name" : "Outpost Highlander",
         "Details" : "The Highlander 732B is an ancient model from the Star League days! Its Gauss Rifle was a terrifying weapon that gave it a huge punch at almost any range—but you can't find those anymore. And of course, it still has the jump capability it's always been known for.",
         "Icon" : "uixTxrIcon_highlander"
     },
