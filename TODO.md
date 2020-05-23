@@ -1,1 +1,0 @@
-- Edit the griffin according to the mechs I created in the mechbay for 6b.
