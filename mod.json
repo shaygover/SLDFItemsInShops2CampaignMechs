@@ -4,7 +4,7 @@
     
     "DependsOn": [ "JK_VariantsCampaign", "HeatAndWeight", "SLDFItemsInShops", "StreakMissileLaunchers" ],
     
-    "Version": "0.1.1",
+    "Version": "0.1.2",
     "Description": "Using my new items to create a variant of campaign mechs: Kamea Kintaros, SLDF outpost and Kamea Atlas II",
     "Author": "tharbad08",
     "Website": "https://github.com/shaygover/BTshopsupgrade",
