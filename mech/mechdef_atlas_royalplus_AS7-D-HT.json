@@ -34,7 +34,7 @@
     "ChassisID": "chassisdef_atlas_AS7-D-HT",
     "HeraldryID": null,
     "Description": {
-        "Cost": 2500000000,
+        "Cost": 800000000,
         "Rarity": 5,
         "Purchasable": false,
         "Manufacturer": "",
@@ -45,7 +45,7 @@
         "Details": "Known as the 'Atlas II,' the D-HT model carries more Energy weaponry and usually a lighter, more flexible Autocannon. It still has unbelievable protection and the same crushing Melee ability as other Atlas models.",
         "Icon": "uixTxrIcon_atlas"
     },
-    "simGameMechPartCost": 250000000,
+    "simGameMechPartCost": 25000000,
     "Version": 1,
     "Locations": [
         {
