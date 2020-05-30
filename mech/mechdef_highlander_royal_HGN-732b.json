@@ -2,13 +2,13 @@
     "Description" : {
         "Cost" : 16820000,
         "Rarity" : 0,
-        "Purchasable" : false,
+        "Purchasable" : true,
         "Manufacturer" : null,
         "Model" : null,
         "UIName" : "Highlander HGN-732s",
         "Id" : "mechdef_highlander_royal_HGN-732b",
         "Name" : "SF Highlander",
-        "Details" : "The Highlander 732Br is an ancient model from the Star League days! Unlike the normal Highlander HGN-732b, the s version was rumored to be used by the Star League special forces. Its Gauss Rifle was a terrifying weapon that gave it a huge punch at almost any range—but you can't find those anymore. And of course, it still has the jump capability it's always been known for.",
+        "Details" : "The Highlander 732s is an ancient model from the Star League days! Unlike the normal Highlander HGN-732b, the s version was rumored to be used by the Star League special forces. Its Gauss Rifle was a terrifying weapon that gave it a huge punch at almost any range—but you can't find those anymore. And of course, it still has the jump capability it's always been known for.",
         "Icon" : "uixTxrIcon_highlander"
     },
     "ChassisID" : "chassisdef_highlander_HGN-732b",
@@ -49,7 +49,7 @@
     "inventory" : [
         {
             "MountedLocation": "Head",
-            "ComponentDefID": "pGear_General_Rangefinder_Suite",
+            "ComponentDefID": "Gear_General_Rangefinder_Suite",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -71,7 +71,7 @@
         },
         {
             "MountedLocation" : "LeftArm",
-            "ComponentDefID" : "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefID" : "Ammo_AmmunitionBox_Generic_LRM",
             "SimGameUID" : "",
             "ComponentDefType" : "AmmunitionBox",
             "HardpointSlot" : -1,
@@ -104,9 +104,9 @@
         },
         {
             "MountedLocation" : "LeftArm",
-            "ComponentDefID" : "SLDF_Rgrav_light",
+            "ComponentDefID" : "Ammo_AmmunitionBox_Generic_GAUSS",
             "SimGameUID" : "",
-            "ComponentDefType" : "Upgrade",
+            "ComponentDefType" : "AmmunitionBox",
             "HardpointSlot" : -1,
             "GUID" : null,
             "DamageLevel" : "Functional",
@@ -115,6 +115,17 @@
         },
         {
             "MountedLocation" : "LeftArm",
+            "ComponentDefID" : "Weapon_LRM_LRM15_3-Zeus",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Weapon",
+            "HardpointSlot" : 0,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
+            "MountedLocation" : "LeftTorso",
             "ComponentDefID" : "SLDF_Rgrav_super_heavy",
             "SimGameUID" : "",
             "ComponentDefType" : "Upgrade",
@@ -126,7 +137,18 @@
         },
         {
             "MountedLocation" : "LeftTorso",
-            "ComponentDefID" : "Weapon_Streak_SRM_SRM4_1-Holly",
+            "ComponentDefID" : "SLDF_Rgrav_super_heavy",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
+            "MountedLocation" : "LeftTorso",
+            "ComponentDefID" : "Weapon_Streak_SRM_SRM6_1-Holly",
             "SimGameUID" : "",
             "ComponentDefType" : "Weapon",
             "HardpointSlot" : 0,
@@ -137,9 +159,9 @@
         },
         {
             "MountedLocation" : "LeftTorso",
-            "ComponentDefID" : "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefID" : "Gear_TargetingTrackingSystem_SLDF_1",
             "SimGameUID" : "",
-            "ComponentDefType" : "AmmunitionBox",
+            "ComponentDefType" : "Upgrade",
             "HardpointSlot" : -1,
             "GUID" : null,
             "DamageLevel" : "Functional",
@@ -147,8 +169,19 @@
             "hasPrefabName" : false
         },
         {
-            "MountedLocation" : "LeftTorso",
-            "ComponentDefID" : "pGear_Mortar_Thumper",
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "SLDF_Rgrav_heavy",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "Gear_General_GM_Ballistic_Siege_Compensators",
             "SimGameUID" : "",
             "ComponentDefType" : "Upgrade",
             "HardpointSlot" : -1,
@@ -169,28 +202,6 @@
             "hasPrefabName" : false
         },
         {
-            "MountedLocation" : "CenterTorso",
-            "ComponentDefID" : "Gear_TargetingTrackingSystem_SLDF_2",
-            "SimGameUID" : "",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
-        },
-        {
-            "MountedLocation" : "RightTorso",
-            "ComponentDefID" : "SLDF_Rgrav_super_heavy",
-            "SimGameUID" : "",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
-        },
-        {
             "MountedLocation" : "RightTorso",
             "ComponentDefID" : "Weapon_Laser_MediumLaserPulse_2-Magna400P",
             "SimGameUID" : "",
@@ -203,7 +214,7 @@
         },
         {
             "MountedLocation" : "RightTorso",
-            "ComponentDefID" : "Weapon_Laser_MediumLaserPulse_2-Magna400P",
+            "ComponentDefID" : "Weapon_Laser_LargeLaserPulse_2-Exostar",
             "SimGameUID" : "",
             "ComponentDefType" : "Weapon",
             "HardpointSlot" : 1,
@@ -214,7 +225,7 @@
         },
         {
             "MountedLocation" : "RightTorso",
-            "ComponentDefID" : "Weapon_Laser_MediumLaserPulse_2-Magna400P",
+            "ComponentDefID" : "Weapon_Laser_LargeLaserER_2-BlazeFire",
             "SimGameUID" : "",
             "ComponentDefType" : "Weapon",
             "HardpointSlot" : 2,
@@ -258,9 +269,20 @@
         },
         {
             "MountedLocation" : "RightTorso",
-            "ComponentDefID" : "Gear_HeatSink_Generic_Thermal-Exchanger-II",
+            "ComponentDefID" : "Gear_HeatSink_Generic_Thermal-Exchanger-III",
             "SimGameUID" : "",
             "ComponentDefType" : "HeatSink",
+            "HardpointSlot" : -1,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
+            "MountedLocation" : "RightTorso",
+            "ComponentDefID" : "SLDF_Rgrav_extra_light",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
             "HardpointSlot" : -1,
             "GUID" : null,
             "DamageLevel" : "Functional",
